@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 420px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+button {
+    background-color: #076bd7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #f84c0e;
+}
+
+.success {
+    color: rgba(255, 221, 0, 0.623);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.print-btn {
+    background-color: #00ff3c;
+    margin-top: 20px;
+}
+
+#ticketList {
+    margin-top: 30px;
+}
+
+.airline-block {
+    margin-bottom: 25px;
+}
+
+.airline-block h3 {
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.ticket-entry {
+    padding-right: 15px;
+    font-size: 14px;
+}

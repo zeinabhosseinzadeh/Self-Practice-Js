@@ -1,0 +1,52 @@
+* {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     list-style: none;
+     scroll-behavior: smooth;
+}
+
+img {
+     width: 100%;
+}
+
+
+
+@mixin flexBox($align, $justify , $direction, $gap, $wrap) {
+     display: flex;
+     justify-content: $justify;
+     align-items: $align;
+     flex-direction: $direction;
+     gap: $gap;
+     flex-wrap: $wrap;
+}
+
+$bgColor: blue;
+$padding: 0px 20px;
+
+nav {
+     background-color: $bgColor;
+     height: 80px;
+     @include flexBox(center, space-between, row, 20px, none);
+     padding: $padding;
+h1{
+     color:yellow;     
+}
+
+     >ul {
+          display: flex;
+          gap: 30px;
+
+          li a {
+               color: white;
+               font-size: 28px;
+               transition: all 0.5s;
+
+               &:hover {
+                    color: orange;
+               }
+          }
+     }
+
+}
